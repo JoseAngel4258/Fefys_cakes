@@ -158,12 +158,16 @@ footer{
 
 @media screen and (max-width:900px){
 
-    .textos-header h2{
+    .textos-header{
         text-align: center;
     }
 }
 
 @media screen and (max-width:500px){
+
+    .textos-header h1{
+        text-align: center;
+    }
 
         /* Footer */
 
