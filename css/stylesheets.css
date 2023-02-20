@@ -554,11 +554,22 @@ footer{
 }
 
 @media screen and (max-width:621px){
+
  .cards .card{
     height: 240px;
     width: 400px;
     } 
 }
+
+    /* footer */
+
+    .content-foot h4{
+
+        border-bottom: 3px solid #b6107e;
+        margin: 0 6px 0 6px;
+
+
+    }
 
 @media screen and (max-width:500px){
 
@@ -573,7 +584,16 @@ footer{
 
     nav > a{
         margin-right: 5px;
+        margin-left: 5px;
+    }
 
+    .header{
+        height: 650px;
+    }
+
+    .wave{
+        position: absolute;
+        bottom: 0;
     }
 
     .textos-header h1{
@@ -582,7 +602,11 @@ footer{
 
     .textos-header h2{
         font-size: 20px;
+        text-align: center;
+        width: 95%;
     }
+
+
 
     /* ABOUT US */
 
@@ -612,7 +636,7 @@ footer{
     }
 
     .clientes-contenedor{
-        height: 1180px;
+        height: 1300px;
     }
 
     .cards .card{
@@ -621,6 +645,10 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .card:nth-child(1){
+        height: 560px;
     }
 
     .cards{
@@ -647,7 +675,7 @@ footer{
     }
 
     .servicio-ind .h3{
-        font-size: 1.27em;
+        font-size: 1.30em;
     }
 
     .servicio-ind .servicio-texto{
@@ -655,7 +683,15 @@ footer{
         text-align: justify;
         margin-left: 65px;
         width: 75%;
-        font-size: 1.22em;
+        font-size: 1.37em;
+
+    }
+
+    /* Siguenos */
+
+    .titulo-redes{
+        text-align: center;
+    
     }
 
     /* Footer */
@@ -685,8 +721,7 @@ footer{
         border-bottom: 3px solid #b6107e;
         padding-bottom: 5px;
         margin-bottom: 10px;
-        margin-right: 180px;
-        margin-left: 180px;
+
     }
 
     .titulo-final{
