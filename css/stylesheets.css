@@ -241,7 +241,7 @@ main .sobre-nosotros{
     background: #b6107e;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 230px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -260,6 +260,7 @@ main .sobre-nosotros{
 .cards .card > .contenido-texto-card{
     width: 60%;
     color: #fff;
+
 }
 
 .cards .card > .contenido-texto-card p{
@@ -417,11 +418,16 @@ footer{
     }
 
     .cards .card{
-        height: 240px;
+        height: 280px;
     }
 
 }
 
+@media screen and (max-width:1073px){
+    .cards .card{
+        height: 300px;
+    }
+}
 
 @media screen and (max-width:900px){
     
@@ -597,7 +603,7 @@ footer{
     }
 
     .cards .card{
-        height: 450px;
+        height: 1000px;
         width: 75%;
         display: flex;
         flex-direction: column;
